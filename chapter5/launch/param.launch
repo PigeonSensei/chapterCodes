@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+  <param name="LinearX" value="10.0" type="double"/>
+  <param name="AngularZ" value="10.0" type="double"/>
+
+  <!--rosrun chapter5 param_node-->
+  <node pkg="chapter5" type="param_node" name="param_node" respawn="true" output="screen"/>
+
+</launch>
+
+
+
+
+
+
